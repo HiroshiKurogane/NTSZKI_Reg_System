@@ -101,15 +101,15 @@ if ($result) {
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <style>
             :root {
-                --bg: #07111e;
-                --bg-2: #101d35;
+                --bg: #071d2f;
+                --bg-2: #123d6b;
                 --card: rgba(13, 22, 41, 0.82);
                 --border: rgba(255, 255, 255, 0.12);
                 --text: #eef4ff;
-                --muted: #b9c5de;
-                --accent: #6ee7ff;
-                --accent-2: #8b5cf6;
-                --accent-3: #f59e0b;
+                --muted: #bdd3ee;
+                --accent: #8ed8ff;
+                --accent-2: #5c8fe3;
+                --accent-3: #f6c9d8;
             }
 
             * {
@@ -125,8 +125,8 @@ if ($result) {
                 font-family: 'Manrope', sans-serif;
                 color: var(--text);
                 background:
-                    radial-gradient(circle at top left, rgba(139, 92, 246, 0.35), transparent 30%),
-                    radial-gradient(circle at 80% 20%, rgba(110, 231, 255, 0.22), transparent 25%),
+                    radial-gradient(circle at top left, rgba(142, 216, 255, 0.34), transparent 30%),
+                    radial-gradient(circle at 80% 20%, rgba(246, 201, 216, 0.22), transparent 25%),
                     linear-gradient(135deg, var(--bg), var(--bg-2));
             }
 
@@ -188,7 +188,7 @@ if ($result) {
             }
 
             .highlight {
-                background: linear-gradient(135deg, #ffffff 0%, #b8eaff 40%, #9c7dff 100%);
+                background: linear-gradient(135deg, #ffffff 0%, #d8efff 38%, #79aef6 100%);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
@@ -255,8 +255,8 @@ if ($result) {
 
             .button-primary {
                 color: #08111f;
-                background: linear-gradient(135deg, #6ee7ff 0%, #8b5cf6 55%, #f59e0b 120%);
-                box-shadow: 0 18px 34px rgba(110, 231, 255, 0.18);
+                background: linear-gradient(135deg, #9fe0ff 0%, #5d8fe5 52%, #f6c9d8 120%);
+                box-shadow: 0 18px 34px rgba(93, 143, 229, 0.18);
             }
 
             .button-secondary {
@@ -367,7 +367,7 @@ if ($result) {
             a {
                 display: inline-block;
                 margin-top: 1.25rem;
-                color: #6ee7ff;
+                color: #8ed8ff;
                 text-decoration: none;
                 font-weight: 700;
             }

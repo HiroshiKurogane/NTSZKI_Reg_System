@@ -115,17 +115,17 @@ if ($isLoggedIn) {
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<style>
 		:root {
-			--bg: #07111e;
-			--bg-2: #101d35;
-			--card: rgba(13, 22, 41, 0.84);
+			--bg: #071d2f;
+			--bg-2: #123d6b;
+			--card: rgba(10, 24, 40, 0.84);
 			--border: rgba(255, 255, 255, 0.12);
-			--text: #eef4ff;
-			--muted: #b7c4de;
-			--accent: #6ee7ff;
-			--accent-2: #8b5cf6;
-			--accent-3: #f59e0b;
+			--text: #eef7ff;
+			--muted: #bdd3ee;
+			--accent: #8ed8ff;
+			--accent-2: #5c8fe3;
+			--accent-3: #f6c9d8;
 			--danger: #ff8aa1;
-			--success: #63e6be;
+			--success: #6ad8bc;
 			--shadow: 0 30px 90px rgba(0, 0, 0, 0.46);
 		}
 
@@ -140,9 +140,9 @@ if ($isLoggedIn) {
 			font-family: 'Manrope', sans-serif;
 			color: var(--text);
 			background:
-				radial-gradient(circle at top left, rgba(139, 92, 246, 0.35), transparent 30%),
-				radial-gradient(circle at 80% 20%, rgba(110, 231, 255, 0.2), transparent 25%),
-				radial-gradient(circle at bottom right, rgba(245, 158, 11, 0.16), transparent 24%),
+				radial-gradient(circle at top left, rgba(138, 190, 255, 0.34), transparent 30%),
+				radial-gradient(circle at 80% 20%, rgba(246, 201, 216, 0.22), transparent 25%),
+				radial-gradient(circle at bottom right, rgba(92, 143, 227, 0.18), transparent 24%),
 				linear-gradient(135deg, var(--bg), var(--bg-2));
 		}
 
@@ -226,8 +226,8 @@ if ($isLoggedIn) {
 			border-radius: 14px;
 			text-decoration: none;
 			color: var(--text);
-			background: rgba(255, 255, 255, 0.06);
-			border: 1px solid rgba(255, 255, 255, 0.1);
+			background: rgba(142, 216, 255, 0.08);
+			border: 1px solid rgba(142, 216, 255, 0.2);
 			font-weight: 700;
 		}
 
@@ -269,7 +269,7 @@ if ($isLoggedIn) {
 		}
 
 		.highlight {
-			background: linear-gradient(135deg, #ffffff 0%, #b8eaff 40%, #9c7dff 100%);
+			background: linear-gradient(135deg, #ffffff 0%, #d8efff 38%, #79aef6 100%);
 			-webkit-background-clip: text;
 			background-clip: text;
 			color: transparent;
@@ -374,8 +374,8 @@ if ($isLoggedIn) {
 			font-weight: 800;
 			cursor: pointer;
 			color: #08111f;
-			background: linear-gradient(135deg, #6ee7ff 0%, #8b5cf6 55%, #f59e0b 120%);
-			box-shadow: 0 18px 34px rgba(110, 231, 255, 0.16);
+			background: linear-gradient(135deg, #9fe0ff 0%, #5d8fe5 52%, #f6c9d8 120%);
+			box-shadow: 0 18px 34px rgba(93, 143, 229, 0.18);
 		}
 
 		.panel {
